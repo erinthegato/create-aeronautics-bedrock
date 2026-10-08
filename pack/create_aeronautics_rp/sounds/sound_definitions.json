@@ -1,0 +1,811 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "aeronautics.block.envelope.break": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/envelope/place_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_4",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.envelope.hit": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/envelope/place_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_4",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.envelope.place": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/envelope/place_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/envelope/place_4",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.hot_air_burner.head": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/hot_air_burner/burner_heat",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.hot_air_burner.idle": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/hot_air_burner/burner_idle",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.levitite.break": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/levitite/break_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/levitite/break_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/levitite/break_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/levitite/break_4",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.levitite.place": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/levitite/place_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/levitite/place_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/levitite/place_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/levitite/place_4",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.propeller_bearing.large_loop": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/propeller_bearing/large_loop",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.propeller_bearing.small_loop": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/propeller_bearing/small_loop",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.steam_vent.close": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/frogport_close",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.steam_vent.head": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/steam_vent/vent_heat",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.steam_vent.idle": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/steam_vent/vent_idle",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.block.steam_vent.open": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/block/steam_vent/open_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/steam_vent/open_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/block/steam_vent/open_3",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.entity.gust": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/entity.wind_charge.wind_burst",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.fluid.levitite_blend.crystallize": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/crystallize_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/crystallize_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/crystallize_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/crystallize_4",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.fluid.levitite_blend.empty": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/empty_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/empty_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/empty_3",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.fluid.levitite_blend.fill": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/fill_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/fill_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/fluid/levitite_blend/fill_3",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.item.cloud_skipper_transform": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/item/cloud_skipper_transform_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/item/cloud_skipper_transform_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/item/cloud_skipper_transform_3",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music.adrift": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music/windstream",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music.cirrus": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music/cirrus",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music.clear": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music.adrift",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music.cirrus",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music.glide",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/swamp/aerie",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/floating_dream",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/infinite_amethyst",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/echo_in_the_wind",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/clark",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/subwoofer_lullaby",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/watcher",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music.glide": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music/glide",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music.mammatus": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music/mammatus",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music.rain": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music.mammatus",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music.adrift",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/swamp/aerie",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/swamp/labyrinthine",
+          "stream": false
+        },
+        {
+          "name": "sounds/aeronautics/music/game/water/axolotl",
+          "stream": false
+        }
+      ]
+    },
+    "aeronautics.music_disc.cloud_skipper": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/aeronautics/music/cloud_skipper",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.absorber.eats": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/absorber/foulbeast_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/absorber/foulbeast_2",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.auger_shaft.encase": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block.netherite_block.hit",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.docking_connector.dock": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/docking_connector/dock_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/docking_connector/dock_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/docking_connector/dock_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/docking_connector/dock_4",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.docking_connector.extend": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/docking_connector/retract",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.docking_connector.retract": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/docking_connector/retract",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.linked_typewriter.ding": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/linked_typewriter/ding",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.linked_typewriter.tap": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/linked_typewriter/tap_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/linked_typewriter/tap_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/linked_typewriter/tap_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/linked_typewriter/tap_4",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/linked_typewriter/tap_5",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.linked_typewriter.untap": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/linked_typewriter/untap",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.physics_assembler.assemble": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/physics_assembler/assemble_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/assemble_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/assemble_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/assemble_4",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/assemble_5",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.physics_assembler.disassemble": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/physics_assembler/disassemble",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.physics_assembler.fail": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/physics_assembler/fail_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/fail_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/fail_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.physics_assembler.shift": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/physics_assembler/shift",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.physics_assembler.tick": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/physics_assembler/tick_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/tick_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/tick_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/physics_assembler/tick_4",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.plunger.place": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/plunger/place_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/plunger/place_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/plunger/place_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.portable_engine.activate": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item.firecharge.use",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.portable_engine.ambient": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/portable_engine/ambient_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/ambient_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/ambient_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/ambient_4",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/ambient_5",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.portable_engine.puff": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/portable_engine/puff_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/puff_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/puff_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/puff_4",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/portable_engine/puff_5",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.block.rope_winch.stretch": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/rope_winch/rope_stretch_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/rope_winch/rope_stretch_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/rope_winch/rope_stretch_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.gui.contraption_diagram.check": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/gui/contraption_diagram/check",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.gui.contraption_diagram.erase": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/gui/contraption_diagram/erase",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.gui.contraption_diagram.tap": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/gui/contraption_diagram/tap_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/gui/contraption_diagram/tap_2",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.honey_glue.use": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block.honey_block.place",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.physics_staff.extinguish": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item/physics_staff/extinguish_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/extinguish_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/extinguish_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.physics_staff.idle": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item/physics_staff/idle",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.physics_staff.ignite": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item/physics_staff/ignite_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/ignite_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/ignite_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.physics_staff.lock": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item/physics_staff/lock_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/lock_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/lock_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.physics_staff.unlock": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item/physics_staff/lock_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/lock_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/item/physics_staff/lock_3",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.plunger_launcher.fwoomp": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/item/plunger_launcher/fwoomp",
+          "stream": false
+        }
+      ]
+    },
+    "simulated.item.plunger_launcher.release": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/simulated/block/plunger/break_1",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/plunger/break_2",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/plunger/break_3",
+          "stream": false
+        },
+        {
+          "name": "sounds/simulated/block/plunger/break_4",
+          "stream": false
+        }
+      ]
+    }
+  }
+}

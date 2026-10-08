@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Create Aeronautics [Behavior]",
+    "description": "Bedrock port scaffold of Create: Aeronautics (NeoForge 1.21.1 v1.3.2).",
+    "uuid": "35c5ff7b-ba9b-5a42-b6ce-d076f795ce5f",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "2bd30efb-547b-5972-9d2a-4fe40abb3bf5",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "erinthegato",
+      "Simulated Team (original)"
+    ],
+    "license": "MIT"
+  }
+}

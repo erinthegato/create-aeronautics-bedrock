@@ -1,0 +1,440 @@
+{
+  "resource_pack_name": "create_aeronautics",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "aeronautics_adjustable_burner": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_andesite_propeller": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_black_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_black_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_blue_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_blue_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_brown_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_brown_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_cyan_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_cyan_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_gray_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_gray_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_green_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_green_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_gyroscopic_propeller_bearing": {
+      "textures": "textures/aeronautics/block/custom_break_particles/gyroscopic_propeller_bearing"
+    },
+    "aeronautics_levitite": {
+      "textures": "textures/aeronautics/block/levitite"
+    },
+    "aeronautics_levitite_blend": {
+      "textures": "textures/aeronautics/item/levitite_blend_bucket"
+    },
+    "aeronautics_light_blue_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_light_blue_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_light_gray_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_light_gray_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_lime_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_lime_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_magenta_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_magenta_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_mounted_potato_cannon": {
+      "textures": "textures/aeronautics/block/mounted_potato_cannon/mounted_potato_cannon_1"
+    },
+    "aeronautics_orange_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_orange_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_pearlescent_levitite": {
+      "textures": "textures/aeronautics/block/pearlescent_levitite"
+    },
+    "aeronautics_pink_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_pink_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_propeller_bearing": {
+      "textures": "textures/aeronautics/block/custom_break_particles/propeller_bearing"
+    },
+    "aeronautics_purple_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_purple_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_red_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_red_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_smart_propeller": {
+      "textures": "textures/aeronautics/block/smart_propeller"
+    },
+    "aeronautics_steam_vent": {
+      "textures": "textures/aeronautics/block/steam_vent/steam_vent_base"
+    },
+    "aeronautics_white_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_white_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_wooden_propeller": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_yellow_envelope": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "aeronautics_yellow_envelope_encased_shaft": {
+      "textures": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+    },
+    "simulated_absorber": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_altitude_sensor": {
+      "textures": "textures/simulated/block/altitude_sensor/altitude_sensor"
+    },
+    "simulated_analog_transmission": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_auger_cog": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_auger_shaft": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_black_handle": {
+      "textures": "textures/simulated/block/handle/black_handle"
+    },
+    "simulated_black_nameplate": {
+      "textures": "textures/simulated/block/nameplate/black_nameplate"
+    },
+    "simulated_black_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_black_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_blue_handle": {
+      "textures": "textures/simulated/block/handle/blue_handle"
+    },
+    "simulated_blue_nameplate": {
+      "textures": "textures/simulated/block/nameplate/blue_nameplate"
+    },
+    "simulated_blue_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_blue_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_brown_handle": {
+      "textures": "textures/simulated/block/handle/brown_handle"
+    },
+    "simulated_brown_nameplate": {
+      "textures": "textures/simulated/block/nameplate/brown_nameplate"
+    },
+    "simulated_brown_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_brown_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_copper_handle": {
+      "textures": "textures/simulated/block/handle/copper_handle"
+    },
+    "simulated_cyan_handle": {
+      "textures": "textures/simulated/block/handle/cyan_handle"
+    },
+    "simulated_cyan_nameplate": {
+      "textures": "textures/simulated/block/nameplate/cyan_nameplate"
+    },
+    "simulated_cyan_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_cyan_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_directional_gearshift": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_directional_linked_receiver": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_docking_connector": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_gimbal_sensor": {
+      "textures": "textures/simulated/block/gimbal_sensor/gimbal_sensor"
+    },
+    "simulated_gray_handle": {
+      "textures": "textures/simulated/block/handle/gray_handle"
+    },
+    "simulated_gray_nameplate": {
+      "textures": "textures/simulated/block/nameplate/gray_nameplate"
+    },
+    "simulated_gray_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_gray_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_green_handle": {
+      "textures": "textures/simulated/block/handle/green_handle"
+    },
+    "simulated_green_nameplate": {
+      "textures": "textures/simulated/block/nameplate/green_nameplate"
+    },
+    "simulated_green_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_green_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_handle": {
+      "textures": "textures/simulated/block/handle/black_handle"
+    },
+    "simulated_iron_handle": {
+      "textures": "textures/simulated/block/handle/iron_handle"
+    },
+    "simulated_laser_pointer": {
+      "textures": "textures/simulated/block/laser_pointer/laser_pointer"
+    },
+    "simulated_laser_sensor": {
+      "textures": "textures/simulated/block/laser_sensor/laser_sensor_off"
+    },
+    "simulated_light_blue_handle": {
+      "textures": "textures/simulated/block/handle/light_blue_handle"
+    },
+    "simulated_light_blue_nameplate": {
+      "textures": "textures/simulated/block/nameplate/light_blue_nameplate"
+    },
+    "simulated_light_blue_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_light_blue_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_light_gray_handle": {
+      "textures": "textures/simulated/block/handle/light_gray_handle"
+    },
+    "simulated_light_gray_nameplate": {
+      "textures": "textures/simulated/block/nameplate/light_gray_nameplate"
+    },
+    "simulated_light_gray_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_light_gray_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_lime_handle": {
+      "textures": "textures/simulated/block/handle/lime_handle"
+    },
+    "simulated_lime_nameplate": {
+      "textures": "textures/simulated/block/nameplate/lime_nameplate"
+    },
+    "simulated_lime_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_lime_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_linked_typewriter": {
+      "textures": "textures/simulated/block/linked_typewriter/linked_typewriter"
+    },
+    "simulated_magenta_handle": {
+      "textures": "textures/simulated/block/handle/magenta_handle"
+    },
+    "simulated_magenta_nameplate": {
+      "textures": "textures/simulated/block/nameplate/magenta_nameplate"
+    },
+    "simulated_magenta_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_magenta_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_merging_glue": {
+      "textures": "textures/simulated/block/merging_glue/merging_glue"
+    },
+    "simulated_modulating_linked_receiver": {
+      "textures": "textures/simulated/gui/modulating_linked_receiver"
+    },
+    "simulated_nameplate": {
+      "textures": "textures/simulated/block/nameplate/black_nameplate"
+    },
+    "simulated_navigation_table": {
+      "textures": "textures/simulated/block/navigation_table/navigation_table_block"
+    },
+    "simulated_optical_sensor": {
+      "textures": "textures/simulated/block/optical_sensor/optical_sensor_bottom"
+    },
+    "simulated_orange_handle": {
+      "textures": "textures/simulated/block/handle/orange_handle"
+    },
+    "simulated_orange_nameplate": {
+      "textures": "textures/simulated/block/nameplate/orange_nameplate"
+    },
+    "simulated_orange_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_orange_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_paired_docking_connector": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_physics_assembler": {
+      "textures": "textures/simulated/block/physics_assembler"
+    },
+    "simulated_pink_handle": {
+      "textures": "textures/simulated/block/handle/pink_handle"
+    },
+    "simulated_pink_nameplate": {
+      "textures": "textures/simulated/block/nameplate/pink_nameplate"
+    },
+    "simulated_pink_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_pink_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_purple_handle": {
+      "textures": "textures/simulated/block/handle/purple_handle"
+    },
+    "simulated_purple_nameplate": {
+      "textures": "textures/simulated/block/nameplate/purple_nameplate"
+    },
+    "simulated_purple_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_purple_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_red_handle": {
+      "textures": "textures/simulated/block/handle/red_handle"
+    },
+    "simulated_red_nameplate": {
+      "textures": "textures/simulated/block/nameplate/red_nameplate"
+    },
+    "simulated_red_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_red_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_redstone_accumulator": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_redstone_inductor": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_redstone_magnet": {
+      "textures": "textures/simulated/block/redstone_magnet/redstone_magnet"
+    },
+    "simulated_rope_connector": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_rope_winch": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_spring": {
+      "textures": "textures/simulated/block/spring/spring"
+    },
+    "simulated_steering_wheel": {
+      "textures": "textures/simulated/block/steering_wheel"
+    },
+    "simulated_swivel_bearing": {
+      "textures": "textures/simulated/block/swivel_bearing"
+    },
+    "simulated_swivel_bearing_link_block": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_throttle_lever": {
+      "textures": "textures/simulated/block/throttle_lever/throttle_lever_0"
+    },
+    "simulated_torsion_spring": {
+      "textures": "textures/simulated/block/torsion_spring"
+    },
+    "simulated_velocity_sensor": {
+      "textures": "textures/simulated/block/velocity_sensor/velocity_sensor"
+    },
+    "simulated_white_handle": {
+      "textures": "textures/simulated/block/handle/white_handle"
+    },
+    "simulated_white_nameplate": {
+      "textures": "textures/simulated/block/nameplate/white_nameplate"
+    },
+    "simulated_white_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_white_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_yellow_handle": {
+      "textures": "textures/simulated/block/handle/yellow_handle"
+    },
+    "simulated_yellow_nameplate": {
+      "textures": "textures/simulated/block/nameplate/yellow_nameplate"
+    },
+    "simulated_yellow_portable_engine": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "simulated_yellow_symmetric_sail": {
+      "textures": "textures/simulated/block/absorber/absorber"
+    },
+    "offroad_borehead_bearing": {
+      "textures": "textures/offroad/block/borehead_bearing_bottom"
+    },
+    "offroad_rockcutting_wheel": {
+      "textures": "textures/offroad/block/rockcutting_wheel"
+    },
+    "offroad_wheel_mount": {
+      "textures": "textures/offroad/block/borehead_bearing_bottom"
+    }
+  }
+}

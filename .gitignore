@@ -1,0 +1,11 @@
+# build / temp artifacts
+build/
+out/
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
+*.tmp
+
+# do NOT ignore the packaged deliverable
+!dist/*.mcaddon

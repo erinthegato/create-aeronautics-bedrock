@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "aeronautics:levitite_blend_bucket",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "aeronautics_levitite_blend_bucket"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "aeronautics:music_disc_cloud_skipper",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "aeronautics_music_disc_cloud_skipper"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

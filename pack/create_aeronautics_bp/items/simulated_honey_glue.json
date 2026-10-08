@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "simulated:honey_glue",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "simulated_honey_glue"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

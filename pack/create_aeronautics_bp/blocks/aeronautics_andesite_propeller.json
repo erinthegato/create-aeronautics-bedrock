@@ -1,0 +1,27 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "aeronautics:andesite_propeller",
+      "menu_category": {
+        "category": "construction"
+      }
+    },
+    "components": {
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "aeronautics_andesite_propeller",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:geometry": "minecraft:geometry.full_block",
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 1.0
+      },
+      "minecraft:destructible_by_explosion": {
+        "explosion_resistance": 1.0
+      },
+      "minecraft:map_color": "#8a8a8a"
+    }
+  }
+}

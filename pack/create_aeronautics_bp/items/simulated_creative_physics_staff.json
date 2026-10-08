@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "simulated:creative_physics_staff",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "simulated_creative_physics_staff"
+      },
+      "minecraft:max_stack_size": 64
+    }
+  }
+}

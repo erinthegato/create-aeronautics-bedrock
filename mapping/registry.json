@@ -1,0 +1,873 @@
+{
+  "source": {
+    "mod": "Create: Aeronautics (bundled)",
+    "loader": "NeoForge",
+    "mc": "1.21.1",
+    "version": "1.3.2"
+  },
+  "namespaces": {
+    "aeronautics": {
+      "blocks": {
+        "adjustable_burner": {
+          "identifier": "aeronautics:adjustable_burner",
+          "display": "Hot Air Burner",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "andesite_propeller": {
+          "identifier": "aeronautics:andesite_propeller",
+          "display": "Andesite Propeller",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "black_envelope": {
+          "identifier": "aeronautics:black_envelope",
+          "display": "Black Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "black_envelope_encased_shaft": {
+          "identifier": "aeronautics:black_envelope_encased_shaft",
+          "display": "Black Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "blue_envelope": {
+          "identifier": "aeronautics:blue_envelope",
+          "display": "Blue Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "blue_envelope_encased_shaft": {
+          "identifier": "aeronautics:blue_envelope_encased_shaft",
+          "display": "Blue Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "brown_envelope": {
+          "identifier": "aeronautics:brown_envelope",
+          "display": "Brown Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "brown_envelope_encased_shaft": {
+          "identifier": "aeronautics:brown_envelope_encased_shaft",
+          "display": "Brown Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "cyan_envelope": {
+          "identifier": "aeronautics:cyan_envelope",
+          "display": "Cyan Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "cyan_envelope_encased_shaft": {
+          "identifier": "aeronautics:cyan_envelope_encased_shaft",
+          "display": "Cyan Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "gray_envelope": {
+          "identifier": "aeronautics:gray_envelope",
+          "display": "Gray Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "gray_envelope_encased_shaft": {
+          "identifier": "aeronautics:gray_envelope_encased_shaft",
+          "display": "Gray Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "green_envelope": {
+          "identifier": "aeronautics:green_envelope",
+          "display": "Green Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "green_envelope_encased_shaft": {
+          "identifier": "aeronautics:green_envelope_encased_shaft",
+          "display": "Green Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "gyroscopic_propeller_bearing": {
+          "identifier": "aeronautics:gyroscopic_propeller_bearing",
+          "display": "Gyroscopic Propeller Bearing",
+          "texture": "textures/aeronautics/block/custom_break_particles/gyroscopic_propeller_bearing"
+        },
+        "levitite": {
+          "identifier": "aeronautics:levitite",
+          "display": "Levitite",
+          "texture": "textures/aeronautics/block/levitite"
+        },
+        "levitite_blend": {
+          "identifier": "aeronautics:levitite_blend",
+          "display": "Levitite Blend",
+          "texture": "textures/aeronautics/item/levitite_blend_bucket"
+        },
+        "light_blue_envelope": {
+          "identifier": "aeronautics:light_blue_envelope",
+          "display": "Light Blue Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "light_blue_envelope_encased_shaft": {
+          "identifier": "aeronautics:light_blue_envelope_encased_shaft",
+          "display": "Light Blue Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "light_gray_envelope": {
+          "identifier": "aeronautics:light_gray_envelope",
+          "display": "Light Gray Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "light_gray_envelope_encased_shaft": {
+          "identifier": "aeronautics:light_gray_envelope_encased_shaft",
+          "display": "Light Gray Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "lime_envelope": {
+          "identifier": "aeronautics:lime_envelope",
+          "display": "Lime Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "lime_envelope_encased_shaft": {
+          "identifier": "aeronautics:lime_envelope_encased_shaft",
+          "display": "Lime Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "magenta_envelope": {
+          "identifier": "aeronautics:magenta_envelope",
+          "display": "Magenta Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "magenta_envelope_encased_shaft": {
+          "identifier": "aeronautics:magenta_envelope_encased_shaft",
+          "display": "Magenta Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "mounted_potato_cannon": {
+          "identifier": "aeronautics:mounted_potato_cannon",
+          "display": "Mounted Potato Cannon",
+          "texture": "textures/aeronautics/block/mounted_potato_cannon/mounted_potato_cannon_1"
+        },
+        "orange_envelope": {
+          "identifier": "aeronautics:orange_envelope",
+          "display": "Orange Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "orange_envelope_encased_shaft": {
+          "identifier": "aeronautics:orange_envelope_encased_shaft",
+          "display": "Orange Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "pearlescent_levitite": {
+          "identifier": "aeronautics:pearlescent_levitite",
+          "display": "Pearlescent Levitite",
+          "texture": "textures/aeronautics/block/pearlescent_levitite"
+        },
+        "pink_envelope": {
+          "identifier": "aeronautics:pink_envelope",
+          "display": "Pink Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "pink_envelope_encased_shaft": {
+          "identifier": "aeronautics:pink_envelope_encased_shaft",
+          "display": "Pink Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "propeller_bearing": {
+          "identifier": "aeronautics:propeller_bearing",
+          "display": "Propeller Bearing",
+          "texture": "textures/aeronautics/block/custom_break_particles/propeller_bearing"
+        },
+        "purple_envelope": {
+          "identifier": "aeronautics:purple_envelope",
+          "display": "Purple Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "purple_envelope_encased_shaft": {
+          "identifier": "aeronautics:purple_envelope_encased_shaft",
+          "display": "Purple Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "red_envelope": {
+          "identifier": "aeronautics:red_envelope",
+          "display": "Red Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "red_envelope_encased_shaft": {
+          "identifier": "aeronautics:red_envelope_encased_shaft",
+          "display": "Red Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "smart_propeller": {
+          "identifier": "aeronautics:smart_propeller",
+          "display": "_Generates thrust_ when spun. _Pitches the propeller_ along one axis to _attempt to face upwards._",
+          "texture": "textures/aeronautics/block/smart_propeller"
+        },
+        "steam_vent": {
+          "identifier": "aeronautics:steam_vent",
+          "display": "Steam Vent",
+          "texture": "textures/aeronautics/block/steam_vent/steam_vent_base"
+        },
+        "white_envelope": {
+          "identifier": "aeronautics:white_envelope",
+          "display": "Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "white_envelope_encased_shaft": {
+          "identifier": "aeronautics:white_envelope_encased_shaft",
+          "display": "White Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "wooden_propeller": {
+          "identifier": "aeronautics:wooden_propeller",
+          "display": "Wooden Propeller",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "yellow_envelope": {
+          "identifier": "aeronautics:yellow_envelope",
+          "display": "Yellow Hot Air Envelope",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        },
+        "yellow_envelope_encased_shaft": {
+          "identifier": "aeronautics:yellow_envelope_encased_shaft",
+          "display": "Yellow Envelope Encased Shaft",
+          "texture": "textures/aeronautics/block/adjustable_burner/adjustable_burner"
+        }
+      },
+      "items": {
+        "aviators_goggles": {
+          "identifier": "aeronautics:aviators_goggles",
+          "display": "Augments your HUD with _miscellaneous information_ about placed components.",
+          "texture": "textures/aeronautics/item/aviators_goggles"
+        },
+        "end_stone_powder": {
+          "identifier": "aeronautics:end_stone_powder",
+          "display": "End Stone Powder",
+          "texture": "textures/aeronautics/item/end_stone_powder"
+        },
+        "levitite_blend_bucket": {
+          "identifier": "aeronautics:levitite_blend_bucket",
+          "display": "Levitite Blend Bucket",
+          "texture": "textures/aeronautics/item/levitite_blend_bucket"
+        },
+        "music_disc_cloud_skipper": {
+          "identifier": "aeronautics:music_disc_cloud_skipper",
+          "display": "Music Disc",
+          "texture": "textures/aeronautics/item/music_disc_cloud_skipper"
+        }
+      },
+      "entities": {
+        "gust": {
+          "identifier": "aeronautics:gust",
+          "display": "Gust"
+        },
+        "propeller_bearing_contraption": {
+          "identifier": "aeronautics:propeller_bearing_contraption",
+          "display": "Propeller Bearing Contraption"
+        }
+      },
+      "fluids": {
+        "levitite_blend": "Levitite Blend"
+      }
+    },
+    "simulated": {
+      "blocks": {
+        "absorber": {
+          "identifier": "simulated:absorber",
+          "display": "§c[Placeholder] INCOMPLETE. DOES NOT §cWORK.",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "altitude_sensor": {
+          "identifier": "simulated:altitude_sensor",
+          "display": "Altitude Sensor",
+          "texture": "textures/simulated/block/altitude_sensor/altitude_sensor"
+        },
+        "analog_transmission": {
+          "identifier": "simulated:analog_transmission",
+          "display": "Analog Transmission",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "auger_cog": {
+          "identifier": "simulated:auger_cog",
+          "display": "Auger Cogwheel",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "auger_shaft": {
+          "identifier": "simulated:auger_shaft",
+          "display": "Auger Shaft",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "black_handle": {
+          "identifier": "simulated:black_handle",
+          "display": "Black Handle",
+          "texture": "textures/simulated/block/handle/black_handle"
+        },
+        "black_nameplate": {
+          "identifier": "simulated:black_nameplate",
+          "display": "Black Nameplate",
+          "texture": "textures/simulated/block/nameplate/black_nameplate"
+        },
+        "black_portable_engine": {
+          "identifier": "simulated:black_portable_engine",
+          "display": "Black Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "black_symmetric_sail": {
+          "identifier": "simulated:black_symmetric_sail",
+          "display": "Black Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "blue_handle": {
+          "identifier": "simulated:blue_handle",
+          "display": "Blue Handle",
+          "texture": "textures/simulated/block/handle/blue_handle"
+        },
+        "blue_nameplate": {
+          "identifier": "simulated:blue_nameplate",
+          "display": "Blue Nameplate",
+          "texture": "textures/simulated/block/nameplate/blue_nameplate"
+        },
+        "blue_portable_engine": {
+          "identifier": "simulated:blue_portable_engine",
+          "display": "Blue Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "blue_symmetric_sail": {
+          "identifier": "simulated:blue_symmetric_sail",
+          "display": "Blue Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "brown_handle": {
+          "identifier": "simulated:brown_handle",
+          "display": "Brown Handle",
+          "texture": "textures/simulated/block/handle/brown_handle"
+        },
+        "brown_nameplate": {
+          "identifier": "simulated:brown_nameplate",
+          "display": "Brown Nameplate",
+          "texture": "textures/simulated/block/nameplate/brown_nameplate"
+        },
+        "brown_portable_engine": {
+          "identifier": "simulated:brown_portable_engine",
+          "display": "Brown Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "brown_symmetric_sail": {
+          "identifier": "simulated:brown_symmetric_sail",
+          "display": "Brown Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "copper_handle": {
+          "identifier": "simulated:copper_handle",
+          "display": "Copper Handle",
+          "texture": "textures/simulated/block/handle/copper_handle"
+        },
+        "cyan_handle": {
+          "identifier": "simulated:cyan_handle",
+          "display": "Cyan Handle",
+          "texture": "textures/simulated/block/handle/cyan_handle"
+        },
+        "cyan_nameplate": {
+          "identifier": "simulated:cyan_nameplate",
+          "display": "Cyan Nameplate",
+          "texture": "textures/simulated/block/nameplate/cyan_nameplate"
+        },
+        "cyan_portable_engine": {
+          "identifier": "simulated:cyan_portable_engine",
+          "display": "Cyan Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "cyan_symmetric_sail": {
+          "identifier": "simulated:cyan_symmetric_sail",
+          "display": "Cyan Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "directional_gearshift": {
+          "identifier": "simulated:directional_gearshift",
+          "display": "Directional Gearshift",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "directional_linked_receiver": {
+          "identifier": "simulated:directional_linked_receiver",
+          "display": "Directional Linked Receiver",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "docking_connector": {
+          "identifier": "simulated:docking_connector",
+          "display": "Docking Connector",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "gimbal_sensor": {
+          "identifier": "simulated:gimbal_sensor",
+          "display": "Gimbal Sensor",
+          "texture": "textures/simulated/block/gimbal_sensor/gimbal_sensor"
+        },
+        "gray_handle": {
+          "identifier": "simulated:gray_handle",
+          "display": "Gray Handle",
+          "texture": "textures/simulated/block/handle/gray_handle"
+        },
+        "gray_nameplate": {
+          "identifier": "simulated:gray_nameplate",
+          "display": "Gray Nameplate",
+          "texture": "textures/simulated/block/nameplate/gray_nameplate"
+        },
+        "gray_portable_engine": {
+          "identifier": "simulated:gray_portable_engine",
+          "display": "Gray Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "gray_symmetric_sail": {
+          "identifier": "simulated:gray_symmetric_sail",
+          "display": "Gray Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "green_handle": {
+          "identifier": "simulated:green_handle",
+          "display": "Green Handle",
+          "texture": "textures/simulated/block/handle/green_handle"
+        },
+        "green_nameplate": {
+          "identifier": "simulated:green_nameplate",
+          "display": "Green Nameplate",
+          "texture": "textures/simulated/block/nameplate/green_nameplate"
+        },
+        "green_portable_engine": {
+          "identifier": "simulated:green_portable_engine",
+          "display": "Green Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "green_symmetric_sail": {
+          "identifier": "simulated:green_symmetric_sail",
+          "display": "Green Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "handle": {
+          "identifier": "simulated:handle",
+          "display": "Attach to a block to easily _grab_ onto it.",
+          "texture": "textures/simulated/block/handle/black_handle"
+        },
+        "iron_handle": {
+          "identifier": "simulated:iron_handle",
+          "display": "Iron Handle",
+          "texture": "textures/simulated/block/handle/iron_handle"
+        },
+        "laser_pointer": {
+          "identifier": "simulated:laser_pointer",
+          "display": "Laser Pointer",
+          "texture": "textures/simulated/block/laser_pointer/laser_pointer"
+        },
+        "laser_sensor": {
+          "identifier": "simulated:laser_sensor",
+          "display": "Laser Sensor",
+          "texture": "textures/simulated/block/laser_sensor/laser_sensor_off"
+        },
+        "light_blue_handle": {
+          "identifier": "simulated:light_blue_handle",
+          "display": "Light Blue Handle",
+          "texture": "textures/simulated/block/handle/light_blue_handle"
+        },
+        "light_blue_nameplate": {
+          "identifier": "simulated:light_blue_nameplate",
+          "display": "Light Blue Nameplate",
+          "texture": "textures/simulated/block/nameplate/light_blue_nameplate"
+        },
+        "light_blue_portable_engine": {
+          "identifier": "simulated:light_blue_portable_engine",
+          "display": "Light Blue Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "light_blue_symmetric_sail": {
+          "identifier": "simulated:light_blue_symmetric_sail",
+          "display": "Light Blue Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "light_gray_handle": {
+          "identifier": "simulated:light_gray_handle",
+          "display": "Light Gray Handle",
+          "texture": "textures/simulated/block/handle/light_gray_handle"
+        },
+        "light_gray_nameplate": {
+          "identifier": "simulated:light_gray_nameplate",
+          "display": "Light Gray Nameplate",
+          "texture": "textures/simulated/block/nameplate/light_gray_nameplate"
+        },
+        "light_gray_portable_engine": {
+          "identifier": "simulated:light_gray_portable_engine",
+          "display": "Light Gray Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "light_gray_symmetric_sail": {
+          "identifier": "simulated:light_gray_symmetric_sail",
+          "display": "Light Gray Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "lime_handle": {
+          "identifier": "simulated:lime_handle",
+          "display": "Lime Handle",
+          "texture": "textures/simulated/block/handle/lime_handle"
+        },
+        "lime_nameplate": {
+          "identifier": "simulated:lime_nameplate",
+          "display": "Lime Nameplate",
+          "texture": "textures/simulated/block/nameplate/lime_nameplate"
+        },
+        "lime_portable_engine": {
+          "identifier": "simulated:lime_portable_engine",
+          "display": "Lime Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "lime_symmetric_sail": {
+          "identifier": "simulated:lime_symmetric_sail",
+          "display": "Lime Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "linked_typewriter": {
+          "identifier": "simulated:linked_typewriter",
+          "display": "Grants convenient control over many _Redstone Link_ frequencies assigned to its _keys_.",
+          "texture": "textures/simulated/block/linked_typewriter/linked_typewriter"
+        },
+        "magenta_handle": {
+          "identifier": "simulated:magenta_handle",
+          "display": "Magenta Handle",
+          "texture": "textures/simulated/block/handle/magenta_handle"
+        },
+        "magenta_nameplate": {
+          "identifier": "simulated:magenta_nameplate",
+          "display": "Magenta Nameplate",
+          "texture": "textures/simulated/block/nameplate/magenta_nameplate"
+        },
+        "magenta_portable_engine": {
+          "identifier": "simulated:magenta_portable_engine",
+          "display": "Magenta Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "magenta_symmetric_sail": {
+          "identifier": "simulated:magenta_symmetric_sail",
+          "display": "Magenta Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "merging_glue": {
+          "identifier": "simulated:merging_glue",
+          "display": "Merging Glue",
+          "texture": "textures/simulated/block/merging_glue/merging_glue"
+        },
+        "modulating_linked_receiver": {
+          "identifier": "simulated:modulating_linked_receiver",
+          "display": "Modulating Linked Receiver",
+          "texture": "textures/simulated/gui/modulating_linked_receiver"
+        },
+        "nameplate": {
+          "identifier": "simulated:nameplate",
+          "display": "_Declare the name_ of your _Simulated Contraption_!",
+          "texture": "textures/simulated/block/nameplate/black_nameplate"
+        },
+        "navigation_table": {
+          "identifier": "simulated:navigation_table",
+          "display": "Navigation Table",
+          "texture": "textures/simulated/block/navigation_table/navigation_table_block"
+        },
+        "optical_sensor": {
+          "identifier": "simulated:optical_sensor",
+          "display": "Optical Sensor",
+          "texture": "textures/simulated/block/optical_sensor/optical_sensor_bottom"
+        },
+        "orange_handle": {
+          "identifier": "simulated:orange_handle",
+          "display": "Orange Handle",
+          "texture": "textures/simulated/block/handle/orange_handle"
+        },
+        "orange_nameplate": {
+          "identifier": "simulated:orange_nameplate",
+          "display": "Orange Nameplate",
+          "texture": "textures/simulated/block/nameplate/orange_nameplate"
+        },
+        "orange_portable_engine": {
+          "identifier": "simulated:orange_portable_engine",
+          "display": "Orange Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "orange_symmetric_sail": {
+          "identifier": "simulated:orange_symmetric_sail",
+          "display": "Orange Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "paired_docking_connector": {
+          "identifier": "simulated:paired_docking_connector",
+          "display": "Paired Docking Connector",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "physics_assembler": {
+          "identifier": "simulated:physics_assembler",
+          "display": "Physics Assembler",
+          "texture": "textures/simulated/block/physics_assembler"
+        },
+        "pink_handle": {
+          "identifier": "simulated:pink_handle",
+          "display": "Pink Handle",
+          "texture": "textures/simulated/block/handle/pink_handle"
+        },
+        "pink_nameplate": {
+          "identifier": "simulated:pink_nameplate",
+          "display": "Pink Nameplate",
+          "texture": "textures/simulated/block/nameplate/pink_nameplate"
+        },
+        "pink_portable_engine": {
+          "identifier": "simulated:pink_portable_engine",
+          "display": "Pink Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "pink_symmetric_sail": {
+          "identifier": "simulated:pink_symmetric_sail",
+          "display": "Pink Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "purple_handle": {
+          "identifier": "simulated:purple_handle",
+          "display": "Purple Handle",
+          "texture": "textures/simulated/block/handle/purple_handle"
+        },
+        "purple_nameplate": {
+          "identifier": "simulated:purple_nameplate",
+          "display": "Purple Nameplate",
+          "texture": "textures/simulated/block/nameplate/purple_nameplate"
+        },
+        "purple_portable_engine": {
+          "identifier": "simulated:purple_portable_engine",
+          "display": "Purple Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "purple_symmetric_sail": {
+          "identifier": "simulated:purple_symmetric_sail",
+          "display": "Purple Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "red_handle": {
+          "identifier": "simulated:red_handle",
+          "display": "Red Handle",
+          "texture": "textures/simulated/block/handle/red_handle"
+        },
+        "red_nameplate": {
+          "identifier": "simulated:red_nameplate",
+          "display": "Red Nameplate",
+          "texture": "textures/simulated/block/nameplate/red_nameplate"
+        },
+        "red_portable_engine": {
+          "identifier": "simulated:red_portable_engine",
+          "display": "Red Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "red_symmetric_sail": {
+          "identifier": "simulated:red_symmetric_sail",
+          "display": "Red Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "redstone_accumulator": {
+          "identifier": "simulated:redstone_accumulator",
+          "display": "Input Delay",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "redstone_inductor": {
+          "identifier": "simulated:redstone_inductor",
+          "display": "Invert",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "redstone_magnet": {
+          "identifier": "simulated:redstone_magnet",
+          "display": "Redstone Magnet",
+          "texture": "textures/simulated/block/redstone_magnet/redstone_magnet"
+        },
+        "rope_connector": {
+          "identifier": "simulated:rope_connector",
+          "display": "Rope Connector",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "rope_winch": {
+          "identifier": "simulated:rope_winch",
+          "display": "Rope Winch",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "spring": {
+          "identifier": "simulated:spring",
+          "display": "Spring",
+          "texture": "textures/simulated/block/spring/spring"
+        },
+        "steering_wheel": {
+          "identifier": "simulated:steering_wheel",
+          "display": "Steering Wheel",
+          "texture": "textures/simulated/block/steering_wheel"
+        },
+        "swivel_bearing": {
+          "identifier": "simulated:swivel_bearing",
+          "display": "Swivel Bearing",
+          "texture": "textures/simulated/block/swivel_bearing"
+        },
+        "swivel_bearing_link_block": {
+          "identifier": "simulated:swivel_bearing_link_block",
+          "display": "Swivel Bearing Link Block",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "throttle_lever": {
+          "identifier": "simulated:throttle_lever",
+          "display": "Throttle Lever",
+          "texture": "textures/simulated/block/throttle_lever/throttle_lever_0"
+        },
+        "torsion_spring": {
+          "identifier": "simulated:torsion_spring",
+          "display": "Torsion Spring",
+          "texture": "textures/simulated/block/torsion_spring"
+        },
+        "velocity_sensor": {
+          "identifier": "simulated:velocity_sensor",
+          "display": "Velocity Sensor",
+          "texture": "textures/simulated/block/velocity_sensor/velocity_sensor"
+        },
+        "white_handle": {
+          "identifier": "simulated:white_handle",
+          "display": "White Handle",
+          "texture": "textures/simulated/block/handle/white_handle"
+        },
+        "white_nameplate": {
+          "identifier": "simulated:white_nameplate",
+          "display": "White Nameplate",
+          "texture": "textures/simulated/block/nameplate/white_nameplate"
+        },
+        "white_portable_engine": {
+          "identifier": "simulated:white_portable_engine",
+          "display": "White Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "white_symmetric_sail": {
+          "identifier": "simulated:white_symmetric_sail",
+          "display": "Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "yellow_handle": {
+          "identifier": "simulated:yellow_handle",
+          "display": "Yellow Handle",
+          "texture": "textures/simulated/block/handle/yellow_handle"
+        },
+        "yellow_nameplate": {
+          "identifier": "simulated:yellow_nameplate",
+          "display": "Yellow Nameplate",
+          "texture": "textures/simulated/block/nameplate/yellow_nameplate"
+        },
+        "yellow_portable_engine": {
+          "identifier": "simulated:yellow_portable_engine",
+          "display": "Yellow Portable Engine",
+          "texture": "textures/simulated/block/absorber/absorber"
+        },
+        "yellow_symmetric_sail": {
+          "identifier": "simulated:yellow_symmetric_sail",
+          "display": "Yellow Symmetric Sail",
+          "texture": "textures/simulated/block/absorber/absorber"
+        }
+      },
+      "items": {
+        "contraption_diagram": {
+          "identifier": "simulated:contraption_diagram",
+          "display": "A _visual diagram_ with detailed information about a _Simulated Contraption_.",
+          "texture": "textures/simulated/item/contraption_diagram"
+        },
+        "creative_physics_staff": {
+          "identifier": "simulated:creative_physics_staff",
+          "display": "_Creative mode_ tool for moving _Simulated Contraptions_.",
+          "texture": "textures/simulated/item/contraption_diagram"
+        },
+        "engine_assembly": {
+          "identifier": "simulated:engine_assembly",
+          "display": "Engine Assembly",
+          "texture": "textures/simulated/item/engine_assembly"
+        },
+        "gyroscopic_mechanism": {
+          "identifier": "simulated:gyroscopic_mechanism",
+          "display": "Gyroscopic Mechanism",
+          "texture": "textures/simulated/item/gyroscopic_mechanism"
+        },
+        "honey_glue": {
+          "identifier": "simulated:honey_glue",
+          "display": "Honey Glue",
+          "texture": "textures/simulated/item/honey_glue"
+        },
+        "incomplete_engine_assembly": {
+          "identifier": "simulated:incomplete_engine_assembly",
+          "display": "Incomplete Engine Assembly",
+          "texture": "textures/simulated/item/incomplete_engine_assembly"
+        },
+        "incomplete_gyroscopic_mechanism": {
+          "identifier": "simulated:incomplete_gyroscopic_mechanism",
+          "display": "Incomplete Gyroscopic Mechanism",
+          "texture": "textures/simulated/item/incomplete_gyroscopic_mechanism"
+        },
+        "plunger_launcher": {
+          "identifier": "simulated:plunger_launcher",
+          "display": "Slomhp! Move _Simulated Contraptions_ with the power of suction. Can be powered with _Air_ _Pressure_ from a _Backtank_.",
+          "texture": "textures/simulated/item/contraption_diagram"
+        },
+        "rope_coupling": {
+          "identifier": "simulated:rope_coupling",
+          "display": "Rope Coupling",
+          "texture": "textures/simulated/item/rope_coupling"
+        }
+      },
+      "entities": {
+        "contraption_diagram": {
+          "identifier": "simulated:contraption_diagram",
+          "display": "Contraption Diagram"
+        },
+        "honey_glue": {
+          "identifier": "simulated:honey_glue",
+          "display": "Honey Glue"
+        },
+        "launched_plunger": {
+          "identifier": "simulated:launched_plunger",
+          "display": "Launched Plunger"
+        }
+      },
+      "fluids": {}
+    },
+    "offroad": {
+      "blocks": {
+        "borehead_bearing": {
+          "identifier": "offroad:borehead_bearing",
+          "display": "Borehead Bearing",
+          "texture": "textures/offroad/block/borehead_bearing_bottom"
+        },
+        "rockcutting_wheel": {
+          "identifier": "offroad:rockcutting_wheel",
+          "display": "Rock Cutting Wheel",
+          "texture": "textures/offroad/block/rockcutting_wheel"
+        },
+        "wheel_mount": {
+          "identifier": "offroad:wheel_mount",
+          "display": "Mounts _wheel-like_ items to allow for ground travel.",
+          "texture": "textures/offroad/block/borehead_bearing_bottom"
+        }
+      },
+      "items": {
+        "large_tire": {
+          "identifier": "offroad:large_tire",
+          "display": "A large _all-terrain wheel._",
+          "texture": null
+        },
+        "monstrous_tire": {
+          "identifier": "offroad:monstrous_tire",
+          "display": "A monstrously large _all-terrain wheel._",
+          "texture": null
+        },
+        "small_tire": {
+          "identifier": "offroad:small_tire",
+          "display": "A _small-terrain wheel._",
+          "texture": null
+        },
+        "tire": {
+          "identifier": "offroad:tire",
+          "display": "A standard _all-terrain wheel._",
+          "texture": "textures/offroad/block/tire/tire_0"
+        }
+      },
+      "entities": {
+        "borehead_contraption_entity": {
+          "identifier": "offroad:borehead_contraption_entity",
+          "display": "Borehead Contraption Entity"
+        }
+      },
+      "fluids": {}
+    }
+  },
+  "totals": {
+    "blocks": 144,
+    "items": 17,
+    "entities": 6
+  }
+}

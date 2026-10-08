@@ -1,0 +1,48 @@
+{
+  "resource_pack_name": "create_aeronautics",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "aeronautics_aviators_goggles": {
+      "textures": "textures/aeronautics/item/aviators_goggles"
+    },
+    "aeronautics_end_stone_powder": {
+      "textures": "textures/aeronautics/item/end_stone_powder"
+    },
+    "aeronautics_levitite_blend_bucket": {
+      "textures": "textures/aeronautics/item/levitite_blend_bucket"
+    },
+    "aeronautics_music_disc_cloud_skipper": {
+      "textures": "textures/aeronautics/item/music_disc_cloud_skipper"
+    },
+    "simulated_contraption_diagram": {
+      "textures": "textures/simulated/item/contraption_diagram"
+    },
+    "simulated_creative_physics_staff": {
+      "textures": "textures/simulated/item/contraption_diagram"
+    },
+    "simulated_engine_assembly": {
+      "textures": "textures/simulated/item/engine_assembly"
+    },
+    "simulated_gyroscopic_mechanism": {
+      "textures": "textures/simulated/item/gyroscopic_mechanism"
+    },
+    "simulated_honey_glue": {
+      "textures": "textures/simulated/item/honey_glue"
+    },
+    "simulated_incomplete_engine_assembly": {
+      "textures": "textures/simulated/item/incomplete_engine_assembly"
+    },
+    "simulated_incomplete_gyroscopic_mechanism": {
+      "textures": "textures/simulated/item/incomplete_gyroscopic_mechanism"
+    },
+    "simulated_plunger_launcher": {
+      "textures": "textures/simulated/item/contraption_diagram"
+    },
+    "simulated_rope_coupling": {
+      "textures": "textures/simulated/item/rope_coupling"
+    },
+    "offroad_tire": {
+      "textures": "textures/offroad/block/tire/tire_0"
+    }
+  }
+}
